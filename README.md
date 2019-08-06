@@ -4,7 +4,8 @@ Codigo de la app extraido desde https://github.com/lilleswing/memegen
 
 # Como hacer el build de la imagen
 ```bash
-# mkdir /memegen
+# mkdir memegen
+# cd memegen
 # git clone https://github.com/franrebo84/docker-example-for-a-tshirt
 # docker build -t lab/memegen 
 ```
