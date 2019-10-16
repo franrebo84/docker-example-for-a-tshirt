@@ -7,6 +7,6 @@ RUN  apt-get install -y git python-pip python-dev build-essential libsqlite3-dev
 && pip install pysqlite 
 
 RUN git clone https://github.com/lilleswing/memegen.git /code
-EXPOSE 80
+EXPOSE 5000
 WORKDIR /code
 CMD ["python","memegen.py"]
